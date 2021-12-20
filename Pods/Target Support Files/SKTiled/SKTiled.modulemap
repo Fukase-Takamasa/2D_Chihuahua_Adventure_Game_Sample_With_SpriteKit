@@ -1,6 +1,0 @@
-framework module SKTiled {
-  umbrella header "SKTiled-umbrella.h"
-
-  export *
-  module * { export * }
-}
