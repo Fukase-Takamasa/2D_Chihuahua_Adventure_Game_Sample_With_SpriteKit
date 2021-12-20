@@ -1,0 +1,6 @@
+framework module SRGNovelGameTexts {
+  umbrella header "SRGNovelGameTexts-umbrella.h"
+
+  export *
+  module * { export * }
+}

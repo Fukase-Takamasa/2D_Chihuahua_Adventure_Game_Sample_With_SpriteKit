@@ -1,0 +1,1299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DEFAFF267DF623CB8CD68B528C4E7B /* TiledGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57C5DAC9271F2C16DB41964D8EB9232 /* TiledGlobals.swift */; };
+		0A6799CBBF6C0D6B326F443E06E0C226 /* SKTiled-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85386DB4FA97493A510CDD00300DF3E4 /* SKTiled-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1682DC84CDDBC9E22B619EC2789C9C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1B4F6245397A581515F5EE2BCC847C38 /* SKTiledObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491644894702E8224EA21381D295B21 /* SKTiledObject.swift */; };
+		280E94073485936169983B3DFCF2491D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2A641484BE7FC119D16CCE2E3D3DE4B6 /* SKObjectGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CBDEA7140154E68972027BA0342676 /* SKObjectGroup.swift */; };
+		2A7725A99F86C31F4C9B9651EE160757 /* TileAnimationFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABB3E016DD86BFEDD5D0F366F1179CD /* TileAnimationFrame.swift */; };
+		2D24FEB4C1A4C32A004688D275E35E91 /* TileObjectProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA045FC2D33F319E5556C8745BCE1C5 /* TileObjectProxy.swift */; };
+		2F19DB9CC1B28E672DAB496051DE26F5 /* SKTilemap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C19A3D51B3E6C7A1CD92272001D4D3 /* SKTilemap.swift */; };
+		31F88A66DFA7E7F4C87693A10A705939 /* SKTilemapParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D80545E7D961577E8F43C709D7DD75 /* SKTilemapParser.swift */; };
+		33250FDD99EFB9ECA8B9D36A5A520F34 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D476BAD7F2AD6D5C806C5D63BF958C5 /* Array2D.swift */; };
+		3DE0A0D0C0F4BFE5C509857754DF8743 /* SKTiled+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66DD6FDA8C4C4EEFC5E332C0C6B7D6A /* SKTiled+Properties.swift */; };
+		410E97B27583218680CEB4923911C842 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152205C264773D9860F22F303920C8F8 /* Logging.swift */; };
+		46300C483CFFE8AFFFF511440D41C34F /* TilesetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF4939FF8624D45CD47A40F38E13A3 /* TilesetDataSource.swift */; };
+		479EBB9D0B303E0D9B777EE6224340BE /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF8DC6C3110B8607A9677F2670971AD /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48681609BC4210004ED1F939B173C194 /* SKTiled+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45B3DAAD756B52B695F060E37BF797 /* SKTiled+Extensions.swift */; };
+		504BEE2A5929CB2B9527224B8D6CFD46 /* TileDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE799DFA604E95E358183EA423FC6F4 /* TileDataStorage.swift */; };
+		5504BEB67CBBCCCF79B6A69633355A94 /* TileObjectOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD243BB668B543B8016F5581516BF72C /* TileObjectOverlay.swift */; };
+		5820F57997455B6AAF1A298499F0491B /* TiledBackgroundLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76656854B3B10AD50979161800648774 /* TiledBackgroundLayer.swift */; };
+		58B00070681E9B45D7CC745844C0B454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5C4801BBE0439685EED3D04268C6E493 /* SKTilesetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD50AD06869CB29378D4771B84D1D3 /* SKTilesetData.swift */; };
+		5D49E745440234CD9E0BB6019B7FB1C6 /* SKTileObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0298B64E5CB3CE00B9931E81F046670E /* SKTileObject.swift */; };
+		5DD46017552DBB7EBB4AD50C6A52E819 /* SKImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A9271B7ECFCE185BFBB0C567E25935 /* SKImageLayer.swift */; };
+		62656D064D684B61114B2C26F46CE248 /* TiledDebugDrawNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF91330A0376FD9C6E093EB3CCD5CB06 /* TiledDebugDrawNode.swift */; };
+		6CB457E1AC82308EBF4D36D80AF15628 /* SKTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D59374D6F848F987AE674BACBD1F52 /* SKTile.swift */; };
+		77258CABE08D3F8292B727494284783D /* AnchorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6D19EF25C3564B170722141F612AD /* AnchorNode.swift */; };
+		78F758EBBE83793E8542D2D7B52CB237 /* SKTiled+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B7295DCDB3D56358A46890DB4D774 /* SKTiled+Debug.swift */; };
+		7B9B65F75D4F5B5FA2E18C17505BD8F9 /* SKGroupLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70BEC344740F82D7CE3DC538F7BCF0 /* SKGroupLayer.swift */; };
+		7F161A7846AB815F6283F3AF8C04D7FB /* SKTiledSceneCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176E4E1F1179C24F001A86968F4FADC /* SKTiledSceneCamera.swift */; };
+		8348DCC1C718A72D5A6BD872F99FAE50 /* SKTiled+GameplayKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23ACF616E37D25C06E79C92AB3FCA0F /* SKTiled+GameplayKit.swift */; };
+		8607EBCACEDD74B16D9FA9FC1FDD610F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		866D1AEC6F6AF15758ABEC3EFEB4EFFA /* Pods-Vamos-a-jugar-al-SpriteKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9F6ACA49FB928DBA2A8F3C748EC4B8 /* Pods-Vamos-a-jugar-al-SpriteKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF401E2990F0D09EE7A8A77729BCB52 /* TilemapDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082257C19EAB6E0F8F4C7DC24C0E0D9F /* TilemapDelegate.swift */; };
+		8E26797BD5BA99597ABB8DD8215E28D9 /* TiledSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834FDA3D4FB544CB9C9657006B9EF80 /* TiledSceneDelegate.swift */; };
+		9CF6F6A9194A4C6B33AA479295D39EA6 /* SKTiled-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E492C01A09AF8600413B21611383EB /* SKTiled-dummy.m */; };
+		9FC4FA11A3FF81BB4572254176037132 /* SKTiledLayerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46583E76AEF0484D6EE1D9BFBCBA8A20 /* SKTiledLayerObject.swift */; };
+		A0109219327FAE3BFE43FB6C97E3A2C3 /* ThreadSafeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5347090B01453C124B14F22F2C623 /* ThreadSafeArray.swift */; };
+		AC8376AEE9451062951D64B7042B93CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BCC28E9D3D22D35F1853C6FE0B4CA6E3 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C359023EA6C67D9E3521FE02B8E4D /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-dummy.m */; };
+		C2399732E0ACE6FC5EE56CCD998817AA /* SRGNovelGameTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6BD1CC35680B0527F6554E28C204CD /* SRGNovelGameTexts.m */; };
+		C678091426445801E36F9F84BC999745 /* SRGNovelGameTexts.h in Headers */ = {isa = PBXBuildFile; fileRef = 954B465D6208BD34CC5C377C802189B6 /* SRGNovelGameTexts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C72D509AD8DF9933B4AF23387D84DD5F /* Pods-Vamos-a-jugar-al-SpriteKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E711944BB736AA99AC146035E6806868 /* Pods-Vamos-a-jugar-al-SpriteKit-dummy.m */; };
+		CAEA84F641E4D13355545E3BF056B397 /* SRGNovelGameTexts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E555554FDBFCBFCADCCC2C2F91A9CFB1 /* SRGNovelGameTexts-dummy.m */; };
+		CB6B4A60F9B290AB8FDB9D70ED41C4DA /* SKTileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD093C48AD8B7C8F8F35CEFC8B9C116 /* SKTileLayer.swift */; };
+		D62F9A3611B932CBA04C3D06AD2DEF41 /* TiledSceneCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089139EF0C61518F90E750C11A3C3BE6 /* TiledSceneCameraDelegate.swift */; };
+		E781401E9DCE0D49FE4EEB27A5FA940E /* TileCollisionShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E899C42EEFE926333BC7E203204B7B2E /* TileCollisionShape.swift */; };
+		EA41B09E8FDE045423B88C96251D527F /* SKTiledScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B4A130E82C25FE5F4B133ABB31215 /* SKTiledScene.swift */; };
+		EBFE9F6E811AABD39141A0FFF855C309 /* SRGNovelGameTexts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7460E3E43A6B0BC80D756026A96B89B5 /* SRGNovelGameTexts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F593396E2786499D2E81B2CEBEF018A4 /* Pods-Vamos-a-jugar-al-SpriteKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B362B46A5679C189CE98A77A77FC136 /* Pods-Vamos-a-jugar-al-SpriteKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F820F47F7919F828B3B910E79CF04346 /* SKTileset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A2609C7DD3DB9D86F67C03EE097F91 /* SKTileset.swift */; };
+		F8DF4CE9CE26E68302585007CCB168B4 /* Pods-Vamos-a-jugar-al-SpriteKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8531712D16F2D1355BD73BB1BBF11CC0 /* Pods-Vamos-a-jugar-al-SpriteKitTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		215400F377E8BD2DE48853767E16A1E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A5D8454E418A7E6514B409FDDEF92B;
+			remoteInfo = SKTiled;
+		};
+		2E74FA2AC16762B825092619A2A49297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A5D8454E418A7E6514B409FDDEF92B;
+			remoteInfo = SKTiled;
+		};
+		39D1B21212D6D055DA1DCFDFEC871803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D000F59A781124B04B44AFB1F128F3;
+			remoteInfo = SRGNovelGameTexts;
+		};
+		6460C89EFD01A2D97627D2DD7F66801C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6544472BE841DEA12E247CFC751061F6;
+			remoteInfo = "Pods-Vamos-a-jugar-al-SpriteKit";
+		};
+		FF07FC1E7F42D4ED523270D13D047367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D000F59A781124B04B44AFB1F128F3;
+			remoteInfo = SRGNovelGameTexts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BD50AD06869CB29378D4771B84D1D3 /* SKTilesetData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTilesetData.swift; path = Sources/SKTilesetData.swift; sourceTree = "<group>"; };
+		019B5F9A092D9A2D1AA9D0D12EC5D307 /* SKTiled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTiled.release.xcconfig; sourceTree = "<group>"; };
+		0298B64E5CB3CE00B9931E81F046670E /* SKTileObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTileObject.swift; path = Sources/SKTileObject.swift; sourceTree = "<group>"; };
+		064F6DD0DAA9275803C51E256383C75D /* Pods_Vamos_a_jugar_al_SpriteKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vamos_a_jugar_al_SpriteKitTests.framework; path = "Pods-Vamos-a-jugar-al-SpriteKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		082257C19EAB6E0F8F4C7DC24C0E0D9F /* TilemapDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TilemapDelegate.swift; path = Sources/TilemapDelegate.swift; sourceTree = "<group>"; };
+		089139EF0C61518F90E750C11A3C3BE6 /* TiledSceneCameraDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TiledSceneCameraDelegate.swift; path = Sources/TiledSceneCameraDelegate.swift; sourceTree = "<group>"; };
+		0C0540155B553E8BBBD248D754993F7C /* Pods-Vamos-a-jugar-al-SpriteKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vamos-a-jugar-al-SpriteKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D9F6ACA49FB928DBA2A8F3C748EC4B8 /* Pods-Vamos-a-jugar-al-SpriteKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vamos-a-jugar-al-SpriteKit-umbrella.h"; sourceTree = "<group>"; };
+		0E70BEC344740F82D7CE3DC538F7BCF0 /* SKGroupLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKGroupLayer.swift; path = Sources/SKGroupLayer.swift; sourceTree = "<group>"; };
+		1491644894702E8224EA21381D295B21 /* SKTiledObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTiledObject.swift; path = Sources/SKTiledObject.swift; sourceTree = "<group>"; };
+		152205C264773D9860F22F303920C8F8 /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Sources/Logging.swift; sourceTree = "<group>"; };
+		1B362B46A5679C189CE98A77A77FC136 /* Pods-Vamos-a-jugar-al-SpriteKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vamos-a-jugar-al-SpriteKitTests-umbrella.h"; sourceTree = "<group>"; };
+		1CA38D43DE4C1EAFE3DD00E2D45A56B7 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1CAFE0CD64DF6B800BC91404ED8433F1 /* Pods-Vamos-a-jugar-al-SpriteKitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vamos-a-jugar-al-SpriteKitTests-Info.plist"; sourceTree = "<group>"; };
+		1E6DA673A704413AFEDCECFFFEAB76A8 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21C19A3D51B3E6C7A1CD92272001D4D3 /* SKTilemap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTilemap.swift; path = Sources/SKTilemap.swift; sourceTree = "<group>"; };
+		21E492C01A09AF8600413B21611383EB /* SKTiled-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKTiled-dummy.m"; sourceTree = "<group>"; };
+		27D5B70957F406D5FC6D41268C64064A /* Pods-Vamos-a-jugar-al-SpriteKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vamos-a-jugar-al-SpriteKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2834FDA3D4FB544CB9C9657006B9EF80 /* TiledSceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TiledSceneDelegate.swift; path = Sources/TiledSceneDelegate.swift; sourceTree = "<group>"; };
+		2EF8DC6C3110B8607A9677F2670971AD /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-umbrella.h"; sourceTree = "<group>"; };
+		33DF4939FF8624D45CD47A40F38E13A3 /* TilesetDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TilesetDataSource.swift; path = Sources/TilesetDataSource.swift; sourceTree = "<group>"; };
+		3560DCAD35CEE124176B4F3294234536 /* SKTiled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTiled.debug.xcconfig; sourceTree = "<group>"; };
+		3BBCD407F0F59F9513CD7000B7B589FA /* SRGNovelGameTexts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRGNovelGameTexts.modulemap; sourceTree = "<group>"; };
+		3C9F670219D1E22EC3AA8105CF9A51F2 /* Pods-Vamos-a-jugar-al-SpriteKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vamos-a-jugar-al-SpriteKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41FE532B6CB20DBC99C3648F9C794C41 /* SRGNovelGameTexts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SRGNovelGameTexts-Info.plist"; sourceTree = "<group>"; };
+		45D59374D6F848F987AE674BACBD1F52 /* SKTile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTile.swift; path = Sources/SKTile.swift; sourceTree = "<group>"; };
+		46583E76AEF0484D6EE1D9BFBCBA8A20 /* SKTiledLayerObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTiledLayerObject.swift; path = Sources/SKTiledLayerObject.swift; sourceTree = "<group>"; };
+		49D80545E7D961577E8F43C709D7DD75 /* SKTilemapParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTilemapParser.swift; path = Sources/SKTilemapParser.swift; sourceTree = "<group>"; };
+		4A8AE2F41F6BE49F2AC9F69D15B222BB /* Pods-Vamos-a-jugar-al-SpriteKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vamos-a-jugar-al-SpriteKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F8B4A130E82C25FE5F4B133ABB31215 /* SKTiledScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTiledScene.swift; path = Sources/SKTiledScene.swift; sourceTree = "<group>"; };
+		518D409AEA27580999CB747F2AC47F44 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-Info.plist"; sourceTree = "<group>"; };
+		53A9271B7ECFCE185BFBB0C567E25935 /* SKImageLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKImageLayer.swift; path = Sources/SKImageLayer.swift; sourceTree = "<group>"; };
+		587C359023EA6C67D9E3521FE02B8E4D /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-dummy.m"; sourceTree = "<group>"; };
+		5D476BAD7F2AD6D5C806C5D63BF958C5 /* Array2D.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array2D.swift; path = Sources/Array2D.swift; sourceTree = "<group>"; };
+		5EE2F8F59280635D0F5C4E394D0734EF /* SRGNovelGameTexts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRGNovelGameTexts-prefix.pch"; sourceTree = "<group>"; };
+		64CBDEA7140154E68972027BA0342676 /* SKObjectGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKObjectGroup.swift; path = Sources/SKObjectGroup.swift; sourceTree = "<group>"; };
+		6BAEE6BAF9ABC212030DFED7E22CB6CA /* Pods-Vamos-a-jugar-al-SpriteKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vamos-a-jugar-al-SpriteKit.release.xcconfig"; sourceTree = "<group>"; };
+		6C46FD4FCC0C06CAEF704D84D9AC78DA /* SKTiled.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKTiled.modulemap; sourceTree = "<group>"; };
+		6DD4EAAA9DD0A95DA1036C89D38773C9 /* SRGNovelGameTexts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRGNovelGameTexts.framework; path = SRGNovelGameTexts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		745C881F37F97802F8438018C5B284BE /* SKTiled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKTiled.framework; path = SKTiled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7460E3E43A6B0BC80D756026A96B89B5 /* SRGNovelGameTexts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRGNovelGameTexts-umbrella.h"; sourceTree = "<group>"; };
+		76656854B3B10AD50979161800648774 /* TiledBackgroundLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TiledBackgroundLayer.swift; path = Sources/TiledBackgroundLayer.swift; sourceTree = "<group>"; };
+		773F76AEFAE033E545954ADF85BE5566 /* Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B17C14FBEB9B29189C803492ACC31F0 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.modulemap"; sourceTree = "<group>"; };
+		7B46B468759FCE34F4DC13B99A513F29 /* SKTiled-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKTiled-Info.plist"; sourceTree = "<group>"; };
+		8531712D16F2D1355BD73BB1BBF11CC0 /* Pods-Vamos-a-jugar-al-SpriteKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vamos-a-jugar-al-SpriteKitTests-dummy.m"; sourceTree = "<group>"; };
+		85386DB4FA97493A510CDD00300DF3E4 /* SKTiled-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTiled-umbrella.h"; sourceTree = "<group>"; };
+		87D5347090B01453C124B14F22F2C623 /* ThreadSafeArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadSafeArray.swift; path = Sources/ThreadSafeArray.swift; sourceTree = "<group>"; };
+		8A64442E5551D4DB24B4100E13A93093 /* SKTiled-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTiled-prefix.pch"; sourceTree = "<group>"; };
+		8BE799DFA604E95E358183EA423FC6F4 /* TileDataStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TileDataStorage.swift; path = Sources/TileDataStorage.swift; sourceTree = "<group>"; };
+		905CDADFE4F240F296EB2F29C92E7176 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9176E4E1F1179C24F001A86968F4FADC /* SKTiledSceneCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTiledSceneCamera.swift; path = Sources/SKTiledSceneCamera.swift; sourceTree = "<group>"; };
+		920F73B3941B984572C2D3D8D2B85527 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		954B465D6208BD34CC5C377C802189B6 /* SRGNovelGameTexts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRGNovelGameTexts.h; path = Classes/SRGNovelGameTexts.h; sourceTree = "<group>"; };
+		95D6D19EF25C3564B170722141F612AD /* AnchorNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchorNode.swift; path = Sources/AnchorNode.swift; sourceTree = "<group>"; };
+		9895FC0C1FD7042C082900F20ED748D9 /* Pods-Vamos-a-jugar-al-SpriteKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vamos-a-jugar-al-SpriteKitTests.modulemap"; sourceTree = "<group>"; };
+		9AAF7BB7DF049C9A8BF3942314DCDA93 /* SRGNovelGameTexts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRGNovelGameTexts.release.xcconfig; sourceTree = "<group>"; };
+		9BD093C48AD8B7C8F8F35CEFC8B9C116 /* SKTileLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTileLayer.swift; path = Sources/SKTileLayer.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A23826405DC1F4C0529C3E4233691E01 /* Pods_Vamos_a_jugar_al_SpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vamos_a_jugar_al_SpriteKit.framework; path = "Pods-Vamos-a-jugar-al-SpriteKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66DD6FDA8C4C4EEFC5E332C0C6B7D6A /* SKTiled+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKTiled+Properties.swift"; path = "Sources/SKTiled+Properties.swift"; sourceTree = "<group>"; };
+		A6A2609C7DD3DB9D86F67C03EE097F91 /* SKTileset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKTileset.swift; path = Sources/SKTileset.swift; sourceTree = "<group>"; };
+		AC6BD1CC35680B0527F6554E28C204CD /* SRGNovelGameTexts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRGNovelGameTexts.m; path = Classes/SRGNovelGameTexts.m; sourceTree = "<group>"; };
+		AD45B3DAAD756B52B695F060E37BF797 /* SKTiled+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKTiled+Extensions.swift"; path = "Sources/SKTiled+Extensions.swift"; sourceTree = "<group>"; };
+		AE7868A16869618A368E15CA853D49FA /* Pods-Vamos-a-jugar-al-SpriteKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vamos-a-jugar-al-SpriteKit-Info.plist"; sourceTree = "<group>"; };
+		B23ACF616E37D25C06E79C92AB3FCA0F /* SKTiled+GameplayKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKTiled+GameplayKit.swift"; path = "Sources/SKTiled+GameplayKit.swift"; sourceTree = "<group>"; };
+		B24ADB723F8B2F4D8F85AD3401B1036A /* Pods-Vamos-a-jugar-al-SpriteKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vamos-a-jugar-al-SpriteKit.modulemap"; sourceTree = "<group>"; };
+		BD8B7295DCDB3D56358A46890DB4D774 /* SKTiled+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKTiled+Debug.swift"; path = "Sources/SKTiled+Debug.swift"; sourceTree = "<group>"; };
+		C486C7B8637723989B95BFBD04880F8A /* Pods-Vamos-a-jugar-al-SpriteKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vamos-a-jugar-al-SpriteKit-frameworks.sh"; sourceTree = "<group>"; };
+		CABB3E016DD86BFEDD5D0F366F1179CD /* TileAnimationFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TileAnimationFrame.swift; path = Sources/TileAnimationFrame.swift; sourceTree = "<group>"; };
+		CF91330A0376FD9C6E093EB3CCD5CB06 /* TiledDebugDrawNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TiledDebugDrawNode.swift; path = Sources/TiledDebugDrawNode.swift; sourceTree = "<group>"; };
+		D71AB5564DA388FBB19DA06559E1914B /* Pods-Vamos-a-jugar-al-SpriteKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vamos-a-jugar-al-SpriteKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		D746B39B8402F0CDAB20184F1DE402FE /* Pods-Vamos-a-jugar-al-SpriteKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vamos-a-jugar-al-SpriteKit.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F4DF4EE2F98B55CB9A325FB1728816 /* SRGNovelGameTexts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRGNovelGameTexts.debug.xcconfig; sourceTree = "<group>"; };
+		DB2DED94F820BDB5D90CCA095DD2BB1D /* Pods-Vamos-a-jugar-al-SpriteKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vamos-a-jugar-al-SpriteKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E555554FDBFCBFCADCCC2C2F91A9CFB1 /* SRGNovelGameTexts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRGNovelGameTexts-dummy.m"; sourceTree = "<group>"; };
+		E57C5DAC9271F2C16DB41964D8EB9232 /* TiledGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TiledGlobals.swift; path = Sources/TiledGlobals.swift; sourceTree = "<group>"; };
+		E711944BB736AA99AC146035E6806868 /* Pods-Vamos-a-jugar-al-SpriteKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vamos-a-jugar-al-SpriteKit-dummy.m"; sourceTree = "<group>"; };
+		E899C42EEFE926333BC7E203204B7B2E /* TileCollisionShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TileCollisionShape.swift; path = Sources/TileCollisionShape.swift; sourceTree = "<group>"; };
+		E8A2DCB7B17412571CFF49A66F9659F0 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD243BB668B543B8016F5581516BF72C /* TileObjectOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TileObjectOverlay.swift; path = Sources/TileObjectOverlay.swift; sourceTree = "<group>"; };
+		FEA045FC2D33F319E5556C8745BCE1C5 /* TileObjectProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TileObjectProxy.swift; path = Sources/TileObjectProxy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87D8B202D3E9740756192E18977945C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1682DC84CDDBC9E22B619EC2789C9C67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A732DD140C38A38FE9FE62232CCCD88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8607EBCACEDD74B16D9FA9FC1FDD610F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63676463C6424E0EE303284B866FBDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E94073485936169983B3DFCF2491D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99087AD6486E7B4128904E9EA2D4A2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B00070681E9B45D7CC745844C0B454 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03FB9FBFF442505E6864CF4850B26E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8376AEE9451062951D64B7042B93CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4930DCF941633AF8D577B7DE43B51AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23826405DC1F4C0529C3E4233691E01 /* Pods_Vamos_a_jugar_al_SpriteKit.framework */,
+				773F76AEFAE033E545954ADF85BE5566 /* Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework */,
+				064F6DD0DAA9275803C51E256383C75D /* Pods_Vamos_a_jugar_al_SpriteKitTests.framework */,
+				745C881F37F97802F8438018C5B284BE /* SKTiled.framework */,
+				6DD4EAAA9DD0A95DA1036C89D38773C9 /* SRGNovelGameTexts.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571F10F34143708990A7915A9FE5DA16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBCD407F0F59F9513CD7000B7B589FA /* SRGNovelGameTexts.modulemap */,
+				E555554FDBFCBFCADCCC2C2F91A9CFB1 /* SRGNovelGameTexts-dummy.m */,
+				41FE532B6CB20DBC99C3648F9C794C41 /* SRGNovelGameTexts-Info.plist */,
+				5EE2F8F59280635D0F5C4E394D0734EF /* SRGNovelGameTexts-prefix.pch */,
+				7460E3E43A6B0BC80D756026A96B89B5 /* SRGNovelGameTexts-umbrella.h */,
+				D9F4DF4EE2F98B55CB9A325FB1728816 /* SRGNovelGameTexts.debug.xcconfig */,
+				9AAF7BB7DF049C9A8BF3942314DCDA93 /* SRGNovelGameTexts.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SRGNovelGameTexts";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F7A214993F1E452B1A61CC9A371E41F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78740BE42C8EC5C8F1D00E6225044CC7 /* SKTiled */,
+				ACF34645DF7ECCE944F771262D3B5068 /* SRGNovelGameTexts */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77BD5A7AE1D94513FCC333D9CB42916B /* Pods-Vamos-a-jugar-al-SpriteKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9895FC0C1FD7042C082900F20ED748D9 /* Pods-Vamos-a-jugar-al-SpriteKitTests.modulemap */,
+				27D5B70957F406D5FC6D41268C64064A /* Pods-Vamos-a-jugar-al-SpriteKitTests-acknowledgements.markdown */,
+				3C9F670219D1E22EC3AA8105CF9A51F2 /* Pods-Vamos-a-jugar-al-SpriteKitTests-acknowledgements.plist */,
+				8531712D16F2D1355BD73BB1BBF11CC0 /* Pods-Vamos-a-jugar-al-SpriteKitTests-dummy.m */,
+				1CAFE0CD64DF6B800BC91404ED8433F1 /* Pods-Vamos-a-jugar-al-SpriteKitTests-Info.plist */,
+				1B362B46A5679C189CE98A77A77FC136 /* Pods-Vamos-a-jugar-al-SpriteKitTests-umbrella.h */,
+				0C0540155B553E8BBBD248D754993F7C /* Pods-Vamos-a-jugar-al-SpriteKitTests.debug.xcconfig */,
+				4A8AE2F41F6BE49F2AC9F69D15B222BB /* Pods-Vamos-a-jugar-al-SpriteKitTests.release.xcconfig */,
+			);
+			name = "Pods-Vamos-a-jugar-al-SpriteKitTests";
+			path = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKitTests";
+			sourceTree = "<group>";
+		};
+		78740BE42C8EC5C8F1D00E6225044CC7 /* SKTiled */ = {
+			isa = PBXGroup;
+			children = (
+				95D6D19EF25C3564B170722141F612AD /* AnchorNode.swift */,
+				5D476BAD7F2AD6D5C806C5D63BF958C5 /* Array2D.swift */,
+				152205C264773D9860F22F303920C8F8 /* Logging.swift */,
+				0E70BEC344740F82D7CE3DC538F7BCF0 /* SKGroupLayer.swift */,
+				53A9271B7ECFCE185BFBB0C567E25935 /* SKImageLayer.swift */,
+				64CBDEA7140154E68972027BA0342676 /* SKObjectGroup.swift */,
+				45D59374D6F848F987AE674BACBD1F52 /* SKTile.swift */,
+				BD8B7295DCDB3D56358A46890DB4D774 /* SKTiled+Debug.swift */,
+				AD45B3DAAD756B52B695F060E37BF797 /* SKTiled+Extensions.swift */,
+				B23ACF616E37D25C06E79C92AB3FCA0F /* SKTiled+GameplayKit.swift */,
+				A66DD6FDA8C4C4EEFC5E332C0C6B7D6A /* SKTiled+Properties.swift */,
+				46583E76AEF0484D6EE1D9BFBCBA8A20 /* SKTiledLayerObject.swift */,
+				1491644894702E8224EA21381D295B21 /* SKTiledObject.swift */,
+				4F8B4A130E82C25FE5F4B133ABB31215 /* SKTiledScene.swift */,
+				9176E4E1F1179C24F001A86968F4FADC /* SKTiledSceneCamera.swift */,
+				9BD093C48AD8B7C8F8F35CEFC8B9C116 /* SKTileLayer.swift */,
+				21C19A3D51B3E6C7A1CD92272001D4D3 /* SKTilemap.swift */,
+				49D80545E7D961577E8F43C709D7DD75 /* SKTilemapParser.swift */,
+				0298B64E5CB3CE00B9931E81F046670E /* SKTileObject.swift */,
+				A6A2609C7DD3DB9D86F67C03EE097F91 /* SKTileset.swift */,
+				00BD50AD06869CB29378D4771B84D1D3 /* SKTilesetData.swift */,
+				87D5347090B01453C124B14F22F2C623 /* ThreadSafeArray.swift */,
+				CABB3E016DD86BFEDD5D0F366F1179CD /* TileAnimationFrame.swift */,
+				E899C42EEFE926333BC7E203204B7B2E /* TileCollisionShape.swift */,
+				8BE799DFA604E95E358183EA423FC6F4 /* TileDataStorage.swift */,
+				76656854B3B10AD50979161800648774 /* TiledBackgroundLayer.swift */,
+				CF91330A0376FD9C6E093EB3CCD5CB06 /* TiledDebugDrawNode.swift */,
+				E57C5DAC9271F2C16DB41964D8EB9232 /* TiledGlobals.swift */,
+				089139EF0C61518F90E750C11A3C3BE6 /* TiledSceneCameraDelegate.swift */,
+				2834FDA3D4FB544CB9C9657006B9EF80 /* TiledSceneDelegate.swift */,
+				082257C19EAB6E0F8F4C7DC24C0E0D9F /* TilemapDelegate.swift */,
+				FD243BB668B543B8016F5581516BF72C /* TileObjectOverlay.swift */,
+				FEA045FC2D33F319E5556C8745BCE1C5 /* TileObjectProxy.swift */,
+				33DF4939FF8624D45CD47A40F38E13A3 /* TilesetDataSource.swift */,
+				7C31FE12CEE4BE76DF19C22C59B52043 /* Support Files */,
+			);
+			name = SKTiled;
+			path = SKTiled;
+			sourceTree = "<group>";
+		};
+		7C31FE12CEE4BE76DF19C22C59B52043 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C46FD4FCC0C06CAEF704D84D9AC78DA /* SKTiled.modulemap */,
+				21E492C01A09AF8600413B21611383EB /* SKTiled-dummy.m */,
+				7B46B468759FCE34F4DC13B99A513F29 /* SKTiled-Info.plist */,
+				8A64442E5551D4DB24B4100E13A93093 /* SKTiled-prefix.pch */,
+				85386DB4FA97493A510CDD00300DF3E4 /* SKTiled-umbrella.h */,
+				3560DCAD35CEE124176B4F3294234536 /* SKTiled.debug.xcconfig */,
+				019B5F9A092D9A2D1AA9D0D12EC5D307 /* SKTiled.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SKTiled";
+			sourceTree = "<group>";
+		};
+		86FF4DE409DF92DCC90D526A5086CE88 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE4306F69F79A5CBE35B1FCBAE9D56BD /* Pods-Vamos-a-jugar-al-SpriteKit */,
+				E8D25292159DF9038D7D4C977A5A989C /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests */,
+				77BD5A7AE1D94513FCC333D9CB42916B /* Pods-Vamos-a-jugar-al-SpriteKitTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ACF34645DF7ECCE944F771262D3B5068 /* SRGNovelGameTexts */ = {
+			isa = PBXGroup;
+			children = (
+				954B465D6208BD34CC5C377C802189B6 /* SRGNovelGameTexts.h */,
+				AC6BD1CC35680B0527F6554E28C204CD /* SRGNovelGameTexts.m */,
+				571F10F34143708990A7915A9FE5DA16 /* Support Files */,
+			);
+			name = SRGNovelGameTexts;
+			path = SRGNovelGameTexts;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5F7A214993F1E452B1A61CC9A371E41F /* Pods */,
+				4930DCF941633AF8D577B7DE43B51AAD /* Products */,
+				86FF4DE409DF92DCC90D526A5086CE88 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D25292159DF9038D7D4C977A5A989C /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B17C14FBEB9B29189C803492ACC31F0 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.modulemap */,
+				1E6DA673A704413AFEDCECFFFEAB76A8 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-acknowledgements.markdown */,
+				905CDADFE4F240F296EB2F29C92E7176 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-acknowledgements.plist */,
+				587C359023EA6C67D9E3521FE02B8E4D /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-dummy.m */,
+				1CA38D43DE4C1EAFE3DD00E2D45A56B7 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-frameworks.sh */,
+				518D409AEA27580999CB747F2AC47F44 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-Info.plist */,
+				2EF8DC6C3110B8607A9677F2670971AD /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-umbrella.h */,
+				E8A2DCB7B17412571CFF49A66F9659F0 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.debug.xcconfig */,
+				920F73B3941B984572C2D3D8D2B85527 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.release.xcconfig */,
+			);
+			name = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests";
+			path = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests";
+			sourceTree = "<group>";
+		};
+		FE4306F69F79A5CBE35B1FCBAE9D56BD /* Pods-Vamos-a-jugar-al-SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				B24ADB723F8B2F4D8F85AD3401B1036A /* Pods-Vamos-a-jugar-al-SpriteKit.modulemap */,
+				DB2DED94F820BDB5D90CCA095DD2BB1D /* Pods-Vamos-a-jugar-al-SpriteKit-acknowledgements.markdown */,
+				D71AB5564DA388FBB19DA06559E1914B /* Pods-Vamos-a-jugar-al-SpriteKit-acknowledgements.plist */,
+				E711944BB736AA99AC146035E6806868 /* Pods-Vamos-a-jugar-al-SpriteKit-dummy.m */,
+				C486C7B8637723989B95BFBD04880F8A /* Pods-Vamos-a-jugar-al-SpriteKit-frameworks.sh */,
+				AE7868A16869618A368E15CA853D49FA /* Pods-Vamos-a-jugar-al-SpriteKit-Info.plist */,
+				0D9F6ACA49FB928DBA2A8F3C748EC4B8 /* Pods-Vamos-a-jugar-al-SpriteKit-umbrella.h */,
+				D746B39B8402F0CDAB20184F1DE402FE /* Pods-Vamos-a-jugar-al-SpriteKit.debug.xcconfig */,
+				6BAEE6BAF9ABC212030DFED7E22CB6CA /* Pods-Vamos-a-jugar-al-SpriteKit.release.xcconfig */,
+			);
+			name = "Pods-Vamos-a-jugar-al-SpriteKit";
+			path = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7ECA10BFF9337B811759BC2FB51C9D9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479EBB9D0B303E0D9B777EE6224340BE /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5A59B653EC055933EAC47999BF558B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866D1AEC6F6AF15758ABEC3EFEB4EFFA /* Pods-Vamos-a-jugar-al-SpriteKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC716B0CF9F4579329A4C68428EA9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F593396E2786499D2E81B2CEBEF018A4 /* Pods-Vamos-a-jugar-al-SpriteKitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AA1AA9515412E974465406097D6FD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6799CBBF6C0D6B326F443E06E0C226 /* SKTiled-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF8D10EC341F3C6FC685B1BC148D811 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C678091426445801E36F9F84BC999745 /* SRGNovelGameTexts.h in Headers */,
+				EBFE9F6E811AABD39141A0FFF855C309 /* SRGNovelGameTexts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6544472BE841DEA12E247CFC751061F6 /* Pods-Vamos-a-jugar-al-SpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89125566331AD70E132062E415411E6 /* Build configuration list for PBXNativeTarget "Pods-Vamos-a-jugar-al-SpriteKit" */;
+			buildPhases = (
+				AA5A59B653EC055933EAC47999BF558B /* Headers */,
+				BB9BDA64F842F11DD81A48B3CB180D09 /* Sources */,
+				B63676463C6424E0EE303284B866FBDC /* Frameworks */,
+				B45528A841482FD7F591031E52FD7A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E275D63270FBDB694A24945858BCCBA4 /* PBXTargetDependency */,
+				C601D2B8B0D0B55590BBC37FFCE336EE /* PBXTargetDependency */,
+			);
+			name = "Pods-Vamos-a-jugar-al-SpriteKit";
+			productName = "Pods-Vamos-a-jugar-al-SpriteKit";
+			productReference = A23826405DC1F4C0529C3E4233691E01 /* Pods_Vamos_a_jugar_al_SpriteKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1A5D8454E418A7E6514B409FDDEF92B /* SKTiled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A474E757EF03FBC58BDA107616C5C60 /* Build configuration list for PBXNativeTarget "SKTiled" */;
+			buildPhases = (
+				E9AA1AA9515412E974465406097D6FD6 /* Headers */,
+				AC77B9741C53EDD1FBE3CAF32CD8C35A /* Sources */,
+				A732DD140C38A38FE9FE62232CCCD88B /* Frameworks */,
+				505E410104102BCC5A899FED09EA7E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKTiled;
+			productName = SKTiled;
+			productReference = 745C881F37F97802F8438018C5B284BE /* SKTiled.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A82356631B92C8E8DC774117397E522B /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC08FFB74F70F305013C3E9B9198B1EB /* Build configuration list for PBXNativeTarget "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests" */;
+			buildPhases = (
+				7ECA10BFF9337B811759BC2FB51C9D9A /* Headers */,
+				0D6714E51775001D4D0E2CECC860C209 /* Sources */,
+				F03FB9FBFF442505E6864CF4850B26E7 /* Frameworks */,
+				43E095F1F4F1449A91AF41D66B924892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6353E89BD82775745CFB39D75DAB6F /* PBXTargetDependency */,
+				BD7503C361D970187970EF2BA9BBDE23 /* PBXTargetDependency */,
+			);
+			name = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests";
+			productName = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests";
+			productReference = 773F76AEFAE033E545954ADF85BE5566 /* Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1D000F59A781124B04B44AFB1F128F3 /* SRGNovelGameTexts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764F28F6AF8225C8C79C63BB2ACC406F /* Build configuration list for PBXNativeTarget "SRGNovelGameTexts" */;
+			buildPhases = (
+				FCF8D10EC341F3C6FC685B1BC148D811 /* Headers */,
+				0890FDDCBCB173D2FBE925D7DDC37FA4 /* Sources */,
+				B99087AD6486E7B4128904E9EA2D4A2A /* Frameworks */,
+				03CE82E5182BFB99D59C29AA122DCE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRGNovelGameTexts;
+			productName = SRGNovelGameTexts;
+			productReference = 6DD4EAAA9DD0A95DA1036C89D38773C9 /* SRGNovelGameTexts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA0082E36FA7A3CAA0D1F15D077DD599 /* Pods-Vamos-a-jugar-al-SpriteKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3016C7924BCC9898672162F7DE043D88 /* Build configuration list for PBXNativeTarget "Pods-Vamos-a-jugar-al-SpriteKitTests" */;
+			buildPhases = (
+				CADC716B0CF9F4579329A4C68428EA9F /* Headers */,
+				43D8F3972D15242091306C9E6F1FE183 /* Sources */,
+				87D8B202D3E9740756192E18977945C8 /* Frameworks */,
+				ECAFCAF4259FC73BC67D49B1C3BEF671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C172D7A7FB3F6B9F1E44D47A663E8AD /* PBXTargetDependency */,
+			);
+			name = "Pods-Vamos-a-jugar-al-SpriteKitTests";
+			productName = "Pods-Vamos-a-jugar-al-SpriteKitTests";
+			productReference = 064F6DD0DAA9275803C51E256383C75D /* Pods_Vamos_a_jugar_al_SpriteKitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4930DCF941633AF8D577B7DE43B51AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6544472BE841DEA12E247CFC751061F6 /* Pods-Vamos-a-jugar-al-SpriteKit */,
+				A82356631B92C8E8DC774117397E522B /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests */,
+				FA0082E36FA7A3CAA0D1F15D077DD599 /* Pods-Vamos-a-jugar-al-SpriteKitTests */,
+				A1A5D8454E418A7E6514B409FDDEF92B /* SKTiled */,
+				F1D000F59A781124B04B44AFB1F128F3 /* SRGNovelGameTexts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CE82E5182BFB99D59C29AA122DCE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E095F1F4F1449A91AF41D66B924892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505E410104102BCC5A899FED09EA7E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45528A841482FD7F591031E52FD7A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAFCAF4259FC73BC67D49B1C3BEF671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0890FDDCBCB173D2FBE925D7DDC37FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2399732E0ACE6FC5EE56CCD998817AA /* SRGNovelGameTexts.m in Sources */,
+				CAEA84F641E4D13355545E3BF056B397 /* SRGNovelGameTexts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6714E51775001D4D0E2CECC860C209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC28E9D3D22D35F1853C6FE0B4CA6E3 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D8F3972D15242091306C9E6F1FE183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DF4CE9CE26E68302585007CCB168B4 /* Pods-Vamos-a-jugar-al-SpriteKitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC77B9741C53EDD1FBE3CAF32CD8C35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77258CABE08D3F8292B727494284783D /* AnchorNode.swift in Sources */,
+				33250FDD99EFB9ECA8B9D36A5A520F34 /* Array2D.swift in Sources */,
+				410E97B27583218680CEB4923911C842 /* Logging.swift in Sources */,
+				7B9B65F75D4F5B5FA2E18C17505BD8F9 /* SKGroupLayer.swift in Sources */,
+				5DD46017552DBB7EBB4AD50C6A52E819 /* SKImageLayer.swift in Sources */,
+				2A641484BE7FC119D16CCE2E3D3DE4B6 /* SKObjectGroup.swift in Sources */,
+				6CB457E1AC82308EBF4D36D80AF15628 /* SKTile.swift in Sources */,
+				78F758EBBE83793E8542D2D7B52CB237 /* SKTiled+Debug.swift in Sources */,
+				48681609BC4210004ED1F939B173C194 /* SKTiled+Extensions.swift in Sources */,
+				8348DCC1C718A72D5A6BD872F99FAE50 /* SKTiled+GameplayKit.swift in Sources */,
+				3DE0A0D0C0F4BFE5C509857754DF8743 /* SKTiled+Properties.swift in Sources */,
+				9CF6F6A9194A4C6B33AA479295D39EA6 /* SKTiled-dummy.m in Sources */,
+				9FC4FA11A3FF81BB4572254176037132 /* SKTiledLayerObject.swift in Sources */,
+				1B4F6245397A581515F5EE2BCC847C38 /* SKTiledObject.swift in Sources */,
+				EA41B09E8FDE045423B88C96251D527F /* SKTiledScene.swift in Sources */,
+				7F161A7846AB815F6283F3AF8C04D7FB /* SKTiledSceneCamera.swift in Sources */,
+				CB6B4A60F9B290AB8FDB9D70ED41C4DA /* SKTileLayer.swift in Sources */,
+				2F19DB9CC1B28E672DAB496051DE26F5 /* SKTilemap.swift in Sources */,
+				31F88A66DFA7E7F4C87693A10A705939 /* SKTilemapParser.swift in Sources */,
+				5D49E745440234CD9E0BB6019B7FB1C6 /* SKTileObject.swift in Sources */,
+				F820F47F7919F828B3B910E79CF04346 /* SKTileset.swift in Sources */,
+				5C4801BBE0439685EED3D04268C6E493 /* SKTilesetData.swift in Sources */,
+				A0109219327FAE3BFE43FB6C97E3A2C3 /* ThreadSafeArray.swift in Sources */,
+				2A7725A99F86C31F4C9B9651EE160757 /* TileAnimationFrame.swift in Sources */,
+				E781401E9DCE0D49FE4EEB27A5FA940E /* TileCollisionShape.swift in Sources */,
+				504BEE2A5929CB2B9527224B8D6CFD46 /* TileDataStorage.swift in Sources */,
+				5820F57997455B6AAF1A298499F0491B /* TiledBackgroundLayer.swift in Sources */,
+				62656D064D684B61114B2C26F46CE248 /* TiledDebugDrawNode.swift in Sources */,
+				07DEFAFF267DF623CB8CD68B528C4E7B /* TiledGlobals.swift in Sources */,
+				D62F9A3611B932CBA04C3D06AD2DEF41 /* TiledSceneCameraDelegate.swift in Sources */,
+				8E26797BD5BA99597ABB8DD8215E28D9 /* TiledSceneDelegate.swift in Sources */,
+				8CF401E2990F0D09EE7A8A77729BCB52 /* TilemapDelegate.swift in Sources */,
+				5504BEB67CBBCCCF79B6A69633355A94 /* TileObjectOverlay.swift in Sources */,
+				2D24FEB4C1A4C32A004688D275E35E91 /* TileObjectProxy.swift in Sources */,
+				46300C483CFFE8AFFFF511440D41C34F /* TilesetDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9BDA64F842F11DD81A48B3CB180D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72D509AD8DF9933B4AF23387D84DD5F /* Pods-Vamos-a-jugar-al-SpriteKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C172D7A7FB3F6B9F1E44D47A663E8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Vamos-a-jugar-al-SpriteKit";
+			target = 6544472BE841DEA12E247CFC751061F6 /* Pods-Vamos-a-jugar-al-SpriteKit */;
+			targetProxy = 6460C89EFD01A2D97627D2DD7F66801C /* PBXContainerItemProxy */;
+		};
+		7D6353E89BD82775745CFB39D75DAB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKTiled;
+			target = A1A5D8454E418A7E6514B409FDDEF92B /* SKTiled */;
+			targetProxy = 2E74FA2AC16762B825092619A2A49297 /* PBXContainerItemProxy */;
+		};
+		BD7503C361D970187970EF2BA9BBDE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRGNovelGameTexts;
+			target = F1D000F59A781124B04B44AFB1F128F3 /* SRGNovelGameTexts */;
+			targetProxy = FF07FC1E7F42D4ED523270D13D047367 /* PBXContainerItemProxy */;
+		};
+		C601D2B8B0D0B55590BBC37FFCE336EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRGNovelGameTexts;
+			target = F1D000F59A781124B04B44AFB1F128F3 /* SRGNovelGameTexts */;
+			targetProxy = 39D1B21212D6D055DA1DCFDFEC871803 /* PBXContainerItemProxy */;
+		};
+		E275D63270FBDB694A24945858BCCBA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKTiled;
+			target = A1A5D8454E418A7E6514B409FDDEF92B /* SKTiled */;
+			targetProxy = 215400F377E8BD2DE48853767E16A1E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C8B47CB5449932A013F2E93D0D11AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920F73B3941B984572C2D3D8D2B85527 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		346007E5CBB6116494ACD87727E52F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D746B39B8402F0CDAB20184F1DE402FE /* Pods-Vamos-a-jugar-al-SpriteKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit/Pods-Vamos-a-jugar-al-SpriteKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit/Pods-Vamos-a-jugar-al-SpriteKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		496C943ABCBDD847C319C582B79090B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0540155B553E8BBBD248D754993F7C /* Pods-Vamos-a-jugar-al-SpriteKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKitTests/Pods-Vamos-a-jugar-al-SpriteKitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKitTests/Pods-Vamos-a-jugar-al-SpriteKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DD3AC66B83B2CE70C1D46F0C50F9AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3560DCAD35CEE124176B4F3294234536 /* SKTiled.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKTiled/SKTiled-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKTiled/SKTiled-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKTiled/SKTiled.modulemap";
+				PRODUCT_MODULE_NAME = SKTiled;
+				PRODUCT_NAME = SKTiled;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9EE7ED41E0B2D3DAC67DAE29E9C8A21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F4DF4EE2F98B55CB9A325FB1728816 /* SRGNovelGameTexts.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRGNovelGameTexts/SRGNovelGameTexts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRGNovelGameTexts/SRGNovelGameTexts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SRGNovelGameTexts/SRGNovelGameTexts.modulemap";
+				PRODUCT_MODULE_NAME = SRGNovelGameTexts;
+				PRODUCT_NAME = SRGNovelGameTexts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEE94629743DFBE630DEF6C5A6C1046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A2DCB7B17412571CFF49A66F9659F0 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4A01A2F9B8CE5DB4862CBBC15895F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8AE2F41F6BE49F2AC9F69D15B222BB /* Pods-Vamos-a-jugar-al-SpriteKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKitTests/Pods-Vamos-a-jugar-al-SpriteKitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKitTests/Pods-Vamos-a-jugar-al-SpriteKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFB1E6C4E928AE09D69F4E9ACBFF0964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019B5F9A092D9A2D1AA9D0D12EC5D307 /* SKTiled.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKTiled/SKTiled-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKTiled/SKTiled-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKTiled/SKTiled.modulemap";
+				PRODUCT_MODULE_NAME = SKTiled;
+				PRODUCT_NAME = SKTiled;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAF4BC4D8E177D233CFF59895F8FFA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAF7BB7DF049C9A8BF3942314DCDA93 /* SRGNovelGameTexts.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRGNovelGameTexts/SRGNovelGameTexts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRGNovelGameTexts/SRGNovelGameTexts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SRGNovelGameTexts/SRGNovelGameTexts.modulemap";
+				PRODUCT_MODULE_NAME = SRGNovelGameTexts;
+				PRODUCT_NAME = SRGNovelGameTexts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2DFD98A2AFF5BF1AD0CB6384C1FAEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAEE6BAF9ABC212030DFED7E22CB6CA /* Pods-Vamos-a-jugar-al-SpriteKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit/Pods-Vamos-a-jugar-al-SpriteKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit/Pods-Vamos-a-jugar-al-SpriteKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3016C7924BCC9898672162F7DE043D88 /* Build configuration list for PBXNativeTarget "Pods-Vamos-a-jugar-al-SpriteKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496C943ABCBDD847C319C582B79090B2 /* Debug */,
+				D4A01A2F9B8CE5DB4862CBBC15895F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A474E757EF03FBC58BDA107616C5C60 /* Build configuration list for PBXNativeTarget "SKTiled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD3AC66B83B2CE70C1D46F0C50F9AA1 /* Debug */,
+				DFB1E6C4E928AE09D69F4E9ACBFF0964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764F28F6AF8225C8C79C63BB2ACC406F /* Build configuration list for PBXNativeTarget "SRGNovelGameTexts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE7ED41E0B2D3DAC67DAE29E9C8A21C /* Debug */,
+				EAF4BC4D8E177D233CFF59895F8FFA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC08FFB74F70F305013C3E9B9198B1EB /* Build configuration list for PBXNativeTarget "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE94629743DFBE630DEF6C5A6C1046C /* Debug */,
+				1C8B47CB5449932A013F2E93D0D11AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89125566331AD70E132062E415411E6 /* Build configuration list for PBXNativeTarget "Pods-Vamos-a-jugar-al-SpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346007E5CBB6116494ACD87727E52F90 /* Debug */,
+				F2DFD98A2AFF5BF1AD0CB6384C1FAEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests {
+  umbrella header "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

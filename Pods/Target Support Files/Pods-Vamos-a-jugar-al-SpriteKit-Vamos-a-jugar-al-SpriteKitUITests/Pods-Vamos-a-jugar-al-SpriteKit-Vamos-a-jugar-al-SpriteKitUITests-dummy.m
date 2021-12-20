@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests
+@end

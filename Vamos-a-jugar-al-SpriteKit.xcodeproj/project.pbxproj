@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F22F8F18CB1FFA458937A22 /* Pods_Vamos_a_jugar_al_SpriteKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC838FBB02F5A5AC591570BD /* Pods_Vamos_a_jugar_al_SpriteKitTests.framework */; };
+		582D80F0654B8E6972492330 /* Pods_Vamos_a_jugar_al_SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73EF964F1BF7CA77A9432B6 /* Pods_Vamos_a_jugar_al_SpriteKit.framework */; };
 		59C446AA276FDCA400885D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C446A9276FDCA400885D91 /* AppDelegate.swift */; };
-		59C446AC276FDCA400885D91 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59C446AB276FDCA400885D91 /* GameScene.sks */; };
-		59C446AE276FDCA400885D91 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59C446AD276FDCA400885D91 /* Actions.sks */; };
 		59C446B0276FDCA400885D91 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C446AF276FDCA400885D91 /* GameScene.swift */; };
 		59C446B2276FDCA400885D91 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C446B1276FDCA400885D91 /* GameViewController.swift */; };
 		59C446B5276FDCA400885D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C446B3276FDCA400885D91 /* Main.storyboard */; };
@@ -18,6 +18,45 @@
 		59C446C4276FDCA500885D91 /* Vamos_a_jugar_al_SpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C446C3276FDCA500885D91 /* Vamos_a_jugar_al_SpriteKitTests.swift */; };
 		59C446CE276FDCA500885D91 /* Vamos_a_jugar_al_SpriteKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C446CD276FDCA500885D91 /* Vamos_a_jugar_al_SpriteKitUITests.swift */; };
 		59C446D0276FDCA500885D91 /* Vamos_a_jugar_al_SpriteKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C446CF276FDCA500885D91 /* Vamos_a_jugar_al_SpriteKitUITestsLaunchTests.swift */; };
+		59C446DD27707BCC00885D91 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C446DC27707BCC00885D91 /* NotificationModel.swift */; };
+		59C447222770801C00885D91 /* subtitles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59C446E02770801C00885D91 /* subtitles.mp3 */; };
+		59C4478427708DD500885D91 /* ST-Convi-E01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476527708DD300885D91 /* ST-Convi-E01.tsx */; };
+		59C4478527708DD500885D91 /* ST-Sewer-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476627708DD300885D91 /* ST-Sewer-01.png */; };
+		59C4478627708DD500885D91 /* ST-Convi-I01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476727708DD300885D91 /* ST-Convi-I01.png */; };
+		59C4478727708DD500885D91 /* ST-Town-I01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476827708DD300885D91 /* ST-Town-I01.tsx */; };
+		59C4478827708DD500885D91 /* ST-Izakaya-I01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476927708DD300885D91 /* ST-Izakaya-I01.png */; };
+		59C4478927708DD500885D91 /* ST-Schl-WE01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476A27708DD300885D91 /* ST-Schl-WE01.tsx */; };
+		59C4478A27708DD500885D91 /* ST-Convi-E01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476B27708DD300885D91 /* ST-Convi-E01.png */; };
+		59C4478B27708DD500885D91 /* ST-Office-I01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476C27708DD300885D91 /* ST-Office-I01.png */; };
+		59C4478C27708DD500885D91 /* ST-Convi-I01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476D27708DD300885D91 /* ST-Convi-I01.tsx */; };
+		59C4478D27708DD500885D91 /* ST-Town-I01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476E27708DD300885D91 /* ST-Town-I01.png */; };
+		59C4478E27708DD500885D91 /* SC-Door-Convi02.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4476F27708DD300885D91 /* SC-Door-Convi02.tsx */; };
+		59C4478F27708DD500885D91 /* ST-Schl-WE01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477027708DD300885D91 /* ST-Schl-WE01.png */; };
+		59C4479027708DD500885D91 /* ST-Schl-WI02.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477127708DD400885D91 /* ST-Schl-WI02.png */; };
+		59C4479127708DD500885D91 /* 20190523212041.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477227708DD400885D91 /* 20190523212041.tsx */; };
+		59C4479227708DD500885D91 /* ST-Libry-I01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477327708DD400885D91 /* ST-Libry-I01.tsx */; };
+		59C4479327708DD500885D91 /* ST-Schl-WI02.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477427708DD400885D91 /* ST-Schl-WI02.tsx */; };
+		59C4479427708DD500885D91 /* ST-Bakery-I01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477527708DD400885D91 /* ST-Bakery-I01.png */; };
+		59C4479527708DD500885D91 /* ST-Bakery-I01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477627708DD400885D91 /* ST-Bakery-I01.tsx */; };
+		59C4479627708DD500885D91 /* ST-Libry-I01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477727708DD400885D91 /* ST-Libry-I01.png */; };
+		59C4479727708DD500885D91 /* set-mansion-in.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477827708DD400885D91 /* set-mansion-in.png */; };
+		59C4479827708DD500885D91 /* ST-Fdshop-I01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477927708DD400885D91 /* ST-Fdshop-I01.png */; };
+		59C4479927708DD500885D91 /* set-mansion-in.zip in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477A27708DD500885D91 /* set-mansion-in.zip */; };
+		59C4479A27708DD500885D91 /* set-mansion-in.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477B27708DD500885D91 /* set-mansion-in.tsx */; };
+		59C4479B27708DD500885D91 /* ST-Sewer-01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477C27708DD500885D91 /* ST-Sewer-01.tsx */; };
+		59C4479C27708DD500885D91 /* ST-Room-I01.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477D27708DD500885D91 /* ST-Room-I01.png */; };
+		59C4479D27708DD500885D91 /* ST-Fdshop-I01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477E27708DD500885D91 /* ST-Fdshop-I01.tsx */; };
+		59C4479E27708DD500885D91 /* 20190523212041.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4477F27708DD500885D91 /* 20190523212041.png */; };
+		59C4479F27708DD500885D91 /* ST-Izakaya-I01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4478027708DD500885D91 /* ST-Izakaya-I01.tsx */; };
+		59C447A027708DD500885D91 /* ST-Room-I01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4478127708DD500885D91 /* ST-Room-I01.tsx */; };
+		59C447A127708DD500885D91 /* SC-Door-Convi02.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C4478227708DD500885D91 /* SC-Door-Convi02.png */; };
+		59C447A227708DD500885D91 /* ST-Office-I01.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 59C4478327708DD500885D91 /* ST-Office-I01.tsx */; };
+		59C447A42770B96100885D91 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C447A32770B96100885D91 /* AudioModel.swift */; };
+		59C447A62770B97C00885D91 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C447A52770B97C00885D91 /* Const.swift */; };
+		59C447A82770B9CC00885D91 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59C447A72770B9CC00885D91 /* GameScene.sks */; };
+		59C447AF2770C75B00885D91 /* testMap1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 59C447AE2770C75B00885D91 /* testMap1.tmx */; };
+		59C447B52770EBAC00885D91 /* itsukano-merry-xmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59C447B42770EBAC00885D91 /* itsukano-merry-xmas.mp3 */; };
+		A8BBB9B1E139598099A65EF8 /* Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395D372E47B78D1BFC2A89F2 /* Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +77,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		020C1CCD6129FE842DAD7933 /* Pods-Vamos-a-jugar-al-SpriteKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vamos-a-jugar-al-SpriteKit.release.xcconfig"; path = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit/Pods-Vamos-a-jugar-al-SpriteKit.release.xcconfig"; sourceTree = "<group>"; };
+		0FF3E2D3F115506C6827E3D1 /* Pods-Vamos-a-jugar-al-SpriteKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vamos-a-jugar-al-SpriteKit.debug.xcconfig"; path = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit/Pods-Vamos-a-jugar-al-SpriteKit.debug.xcconfig"; sourceTree = "<group>"; };
+		395D372E47B78D1BFC2A89F2 /* Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C446A6276FDCA400885D91 /* Vamos-a-jugar-al-SpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vamos-a-jugar-al-SpriteKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C446A9276FDCA400885D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59C446AB276FDCA400885D91 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		59C446AD276FDCA400885D91 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		59C446AF276FDCA400885D91 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		59C446B1276FDCA400885D91 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		59C446B4276FDCA400885D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +92,50 @@
 		59C446C9276FDCA500885D91 /* Vamos-a-jugar-al-SpriteKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vamos-a-jugar-al-SpriteKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C446CD276FDCA500885D91 /* Vamos_a_jugar_al_SpriteKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vamos_a_jugar_al_SpriteKitUITests.swift; sourceTree = "<group>"; };
 		59C446CF276FDCA500885D91 /* Vamos_a_jugar_al_SpriteKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vamos_a_jugar_al_SpriteKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59C446DC27707BCC00885D91 /* NotificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		59C446E02770801C00885D91 /* subtitles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = subtitles.mp3; sourceTree = "<group>"; };
+		59C4476527708DD300885D91 /* ST-Convi-E01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Convi-E01.tsx"; sourceTree = "<group>"; };
+		59C4476627708DD300885D91 /* ST-Sewer-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Sewer-01.png"; sourceTree = "<group>"; };
+		59C4476727708DD300885D91 /* ST-Convi-I01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Convi-I01.png"; sourceTree = "<group>"; };
+		59C4476827708DD300885D91 /* ST-Town-I01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Town-I01.tsx"; sourceTree = "<group>"; };
+		59C4476927708DD300885D91 /* ST-Izakaya-I01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Izakaya-I01.png"; sourceTree = "<group>"; };
+		59C4476A27708DD300885D91 /* ST-Schl-WE01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Schl-WE01.tsx"; sourceTree = "<group>"; };
+		59C4476B27708DD300885D91 /* ST-Convi-E01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Convi-E01.png"; sourceTree = "<group>"; };
+		59C4476C27708DD300885D91 /* ST-Office-I01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Office-I01.png"; sourceTree = "<group>"; };
+		59C4476D27708DD300885D91 /* ST-Convi-I01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Convi-I01.tsx"; sourceTree = "<group>"; };
+		59C4476E27708DD300885D91 /* ST-Town-I01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Town-I01.png"; sourceTree = "<group>"; };
+		59C4476F27708DD300885D91 /* SC-Door-Convi02.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SC-Door-Convi02.tsx"; sourceTree = "<group>"; };
+		59C4477027708DD300885D91 /* ST-Schl-WE01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Schl-WE01.png"; sourceTree = "<group>"; };
+		59C4477127708DD400885D91 /* ST-Schl-WI02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Schl-WI02.png"; sourceTree = "<group>"; };
+		59C4477227708DD400885D91 /* 20190523212041.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 20190523212041.tsx; sourceTree = "<group>"; };
+		59C4477327708DD400885D91 /* ST-Libry-I01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Libry-I01.tsx"; sourceTree = "<group>"; };
+		59C4477427708DD400885D91 /* ST-Schl-WI02.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Schl-WI02.tsx"; sourceTree = "<group>"; };
+		59C4477527708DD400885D91 /* ST-Bakery-I01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Bakery-I01.png"; sourceTree = "<group>"; };
+		59C4477627708DD400885D91 /* ST-Bakery-I01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Bakery-I01.tsx"; sourceTree = "<group>"; };
+		59C4477727708DD400885D91 /* ST-Libry-I01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Libry-I01.png"; sourceTree = "<group>"; };
+		59C4477827708DD400885D91 /* set-mansion-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set-mansion-in.png"; sourceTree = "<group>"; };
+		59C4477927708DD400885D91 /* ST-Fdshop-I01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Fdshop-I01.png"; sourceTree = "<group>"; };
+		59C4477A27708DD500885D91 /* set-mansion-in.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "set-mansion-in.zip"; sourceTree = "<group>"; };
+		59C4477B27708DD500885D91 /* set-mansion-in.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "set-mansion-in.tsx"; sourceTree = "<group>"; };
+		59C4477C27708DD500885D91 /* ST-Sewer-01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Sewer-01.tsx"; sourceTree = "<group>"; };
+		59C4477D27708DD500885D91 /* ST-Room-I01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ST-Room-I01.png"; sourceTree = "<group>"; };
+		59C4477E27708DD500885D91 /* ST-Fdshop-I01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Fdshop-I01.tsx"; sourceTree = "<group>"; };
+		59C4477F27708DD500885D91 /* 20190523212041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20190523212041.png; sourceTree = "<group>"; };
+		59C4478027708DD500885D91 /* ST-Izakaya-I01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Izakaya-I01.tsx"; sourceTree = "<group>"; };
+		59C4478127708DD500885D91 /* ST-Room-I01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Room-I01.tsx"; sourceTree = "<group>"; };
+		59C4478227708DD500885D91 /* SC-Door-Convi02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SC-Door-Convi02.png"; sourceTree = "<group>"; };
+		59C4478327708DD500885D91 /* ST-Office-I01.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ST-Office-I01.tsx"; sourceTree = "<group>"; };
+		59C447A32770B96100885D91 /* AudioModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		59C447A52770B97C00885D91 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		59C447A72770B9CC00885D91 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		59C447AE2770C75B00885D91 /* testMap1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testMap1.tmx; sourceTree = "<group>"; };
+		59C447B42770EBAC00885D91 /* itsukano-merry-xmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "itsukano-merry-xmas.mp3"; sourceTree = "<group>"; };
+		6542225B402BAE45280568A1 /* Pods-Vamos-a-jugar-al-SpriteKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vamos-a-jugar-al-SpriteKitTests.release.xcconfig"; path = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKitTests/Pods-Vamos-a-jugar-al-SpriteKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CE3993C6D09CAE5D9BC38DC /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.release.xcconfig"; path = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B73EF964F1BF7CA77A9432B6 /* Pods_Vamos_a_jugar_al_SpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vamos_a_jugar_al_SpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E2C03A5DB422C81311A6E1 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA1642077BCFDE46B29A2B5C /* Pods-Vamos-a-jugar-al-SpriteKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vamos-a-jugar-al-SpriteKitTests.debug.xcconfig"; path = "Target Support Files/Pods-Vamos-a-jugar-al-SpriteKitTests/Pods-Vamos-a-jugar-al-SpriteKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC838FBB02F5A5AC591570BD /* Pods_Vamos_a_jugar_al_SpriteKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vamos_a_jugar_al_SpriteKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582D80F0654B8E6972492330 /* Pods_Vamos_a_jugar_al_SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F22F8F18CB1FFA458937A22 /* Pods_Vamos_a_jugar_al_SpriteKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +159,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BBB9B1E139598099A65EF8 /* Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18693DE71246F0E505D47160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B73EF964F1BF7CA77A9432B6 /* Pods_Vamos_a_jugar_al_SpriteKit.framework */,
+				395D372E47B78D1BFC2A89F2 /* Pods_Vamos_a_jugar_al_SpriteKit_Vamos_a_jugar_al_SpriteKitUITests.framework */,
+				FC838FBB02F5A5AC591570BD /* Pods_Vamos_a_jugar_al_SpriteKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		59C4469D276FDCA400885D91 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +183,8 @@
 				59C446C2276FDCA500885D91 /* Vamos-a-jugar-al-SpriteKitTests */,
 				59C446CC276FDCA500885D91 /* Vamos-a-jugar-al-SpriteKitUITests */,
 				59C446A7276FDCA400885D91 /* Products */,
+				F5298276D7C5B46EAB604F6C /* Pods */,
+				18693DE71246F0E505D47160 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,13 +202,15 @@
 			isa = PBXGroup;
 			children = (
 				59C446A9276FDCA400885D91 /* AppDelegate.swift */,
-				59C446AB276FDCA400885D91 /* GameScene.sks */,
-				59C446AD276FDCA400885D91 /* Actions.sks */,
+				59C447A92770C03800885D91 /* Const */,
+				59C447AA2770C0BB00885D91 /* Model */,
+				59C447A72770B9CC00885D91 /* GameScene.sks */,
 				59C446AF276FDCA400885D91 /* GameScene.swift */,
 				59C446B1276FDCA400885D91 /* GameViewController.swift */,
 				59C446B3276FDCA400885D91 /* Main.storyboard */,
 				59C446B6276FDCA500885D91 /* Assets.xcassets */,
 				59C446B8276FDCA500885D91 /* LaunchScreen.storyboard */,
+				59C446DE2770801C00885D91 /* Resources */,
 			);
 			path = "Vamos-a-jugar-al-SpriteKit";
 			sourceTree = "<group>";
@@ -131,6 +232,101 @@
 			path = "Vamos-a-jugar-al-SpriteKitUITests";
 			sourceTree = "<group>";
 		};
+		59C446DE2770801C00885D91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59C447012770801C00885D91 /* GameMap */,
+				59C446DF2770801C00885D91 /* MP3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		59C446DF2770801C00885D91 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				59C447B42770EBAC00885D91 /* itsukano-merry-xmas.mp3 */,
+				59C446E02770801C00885D91 /* subtitles.mp3 */,
+			);
+			path = MP3;
+			sourceTree = "<group>";
+		};
+		59C447012770801C00885D91 /* GameMap */ = {
+			isa = PBXGroup;
+			children = (
+				59C447AE2770C75B00885D91 /* testMap1.tmx */,
+				59C447AB2770C5FB00885D91 /* TileSets */,
+			);
+			path = GameMap;
+			sourceTree = "<group>";
+		};
+		59C447A92770C03800885D91 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				59C447A52770B97C00885D91 /* Const.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		59C447AA2770C0BB00885D91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59C446DC27707BCC00885D91 /* NotificationModel.swift */,
+				59C447A32770B96100885D91 /* AudioModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59C447AB2770C5FB00885D91 /* TileSets */ = {
+			isa = PBXGroup;
+			children = (
+				59C4477F27708DD500885D91 /* 20190523212041.png */,
+				59C4477227708DD400885D91 /* 20190523212041.tsx */,
+				59C4478227708DD500885D91 /* SC-Door-Convi02.png */,
+				59C4476F27708DD300885D91 /* SC-Door-Convi02.tsx */,
+				59C4477827708DD400885D91 /* set-mansion-in.png */,
+				59C4477B27708DD500885D91 /* set-mansion-in.tsx */,
+				59C4477A27708DD500885D91 /* set-mansion-in.zip */,
+				59C4477527708DD400885D91 /* ST-Bakery-I01.png */,
+				59C4477627708DD400885D91 /* ST-Bakery-I01.tsx */,
+				59C4476B27708DD300885D91 /* ST-Convi-E01.png */,
+				59C4476527708DD300885D91 /* ST-Convi-E01.tsx */,
+				59C4476727708DD300885D91 /* ST-Convi-I01.png */,
+				59C4476D27708DD300885D91 /* ST-Convi-I01.tsx */,
+				59C4477927708DD400885D91 /* ST-Fdshop-I01.png */,
+				59C4477E27708DD500885D91 /* ST-Fdshop-I01.tsx */,
+				59C4476927708DD300885D91 /* ST-Izakaya-I01.png */,
+				59C4478027708DD500885D91 /* ST-Izakaya-I01.tsx */,
+				59C4477727708DD400885D91 /* ST-Libry-I01.png */,
+				59C4477327708DD400885D91 /* ST-Libry-I01.tsx */,
+				59C4476C27708DD300885D91 /* ST-Office-I01.png */,
+				59C4478327708DD500885D91 /* ST-Office-I01.tsx */,
+				59C4477D27708DD500885D91 /* ST-Room-I01.png */,
+				59C4478127708DD500885D91 /* ST-Room-I01.tsx */,
+				59C4477027708DD300885D91 /* ST-Schl-WE01.png */,
+				59C4476A27708DD300885D91 /* ST-Schl-WE01.tsx */,
+				59C4477127708DD400885D91 /* ST-Schl-WI02.png */,
+				59C4477427708DD400885D91 /* ST-Schl-WI02.tsx */,
+				59C4476627708DD300885D91 /* ST-Sewer-01.png */,
+				59C4477C27708DD500885D91 /* ST-Sewer-01.tsx */,
+				59C4476E27708DD300885D91 /* ST-Town-I01.png */,
+				59C4476827708DD300885D91 /* ST-Town-I01.tsx */,
+			);
+			path = TileSets;
+			sourceTree = "<group>";
+		};
+		F5298276D7C5B46EAB604F6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FF3E2D3F115506C6827E3D1 /* Pods-Vamos-a-jugar-al-SpriteKit.debug.xcconfig */,
+				020C1CCD6129FE842DAD7933 /* Pods-Vamos-a-jugar-al-SpriteKit.release.xcconfig */,
+				D1E2C03A5DB422C81311A6E1 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.debug.xcconfig */,
+				6CE3993C6D09CAE5D9BC38DC /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.release.xcconfig */,
+				EA1642077BCFDE46B29A2B5C /* Pods-Vamos-a-jugar-al-SpriteKitTests.debug.xcconfig */,
+				6542225B402BAE45280568A1 /* Pods-Vamos-a-jugar-al-SpriteKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +334,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C446D3276FDCA500885D91 /* Build configuration list for PBXNativeTarget "Vamos-a-jugar-al-SpriteKit" */;
 			buildPhases = (
+				C73A5F002870AE20751365B6 /* [CP] Check Pods Manifest.lock */,
 				59C446A2276FDCA400885D91 /* Sources */,
 				59C446A3276FDCA400885D91 /* Frameworks */,
 				59C446A4276FDCA400885D91 /* Resources */,
+				94460BDF81F69A94DC6CE838 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C446D6276FDCA500885D91 /* Build configuration list for PBXNativeTarget "Vamos-a-jugar-al-SpriteKitTests" */;
 			buildPhases = (
+				F1870BD946FB0EEA7313388A /* [CP] Check Pods Manifest.lock */,
 				59C446BB276FDCA500885D91 /* Sources */,
 				59C446BC276FDCA500885D91 /* Frameworks */,
 				59C446BD276FDCA500885D91 /* Resources */,
@@ -173,9 +372,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C446D9276FDCA500885D91 /* Build configuration list for PBXNativeTarget "Vamos-a-jugar-al-SpriteKitUITests" */;
 			buildPhases = (
+				C79D3DD0A640B53B6C5B95EC /* [CP] Check Pods Manifest.lock */,
 				59C446C5276FDCA500885D91 /* Sources */,
 				59C446C6276FDCA500885D91 /* Frameworks */,
 				59C446C7276FDCA500885D91 /* Resources */,
+				BF33C19DCA3AFE0FDE486B87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,11 +436,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C4478627708DD500885D91 /* ST-Convi-I01.png in Resources */,
+				59C4479427708DD500885D91 /* ST-Bakery-I01.png in Resources */,
+				59C4479827708DD500885D91 /* ST-Fdshop-I01.png in Resources */,
+				59C4478727708DD500885D91 /* ST-Town-I01.tsx in Resources */,
+				59C4479B27708DD500885D91 /* ST-Sewer-01.tsx in Resources */,
+				59C447B52770EBAC00885D91 /* itsukano-merry-xmas.mp3 in Resources */,
+				59C4479227708DD500885D91 /* ST-Libry-I01.tsx in Resources */,
+				59C4479F27708DD500885D91 /* ST-Izakaya-I01.tsx in Resources */,
+				59C447222770801C00885D91 /* subtitles.mp3 in Resources */,
+				59C4479127708DD500885D91 /* 20190523212041.tsx in Resources */,
+				59C4478B27708DD500885D91 /* ST-Office-I01.png in Resources */,
+				59C4478A27708DD500885D91 /* ST-Convi-E01.png in Resources */,
+				59C4478D27708DD500885D91 /* ST-Town-I01.png in Resources */,
 				59C446B5276FDCA400885D91 /* Main.storyboard in Resources */,
-				59C446AC276FDCA400885D91 /* GameScene.sks in Resources */,
+				59C4479C27708DD500885D91 /* ST-Room-I01.png in Resources */,
+				59C4479D27708DD500885D91 /* ST-Fdshop-I01.tsx in Resources */,
+				59C447A027708DD500885D91 /* ST-Room-I01.tsx in Resources */,
+				59C4478527708DD500885D91 /* ST-Sewer-01.png in Resources */,
+				59C4479A27708DD500885D91 /* set-mansion-in.tsx in Resources */,
+				59C4479627708DD500885D91 /* ST-Libry-I01.png in Resources */,
+				59C4478927708DD500885D91 /* ST-Schl-WE01.tsx in Resources */,
+				59C4478F27708DD500885D91 /* ST-Schl-WE01.png in Resources */,
+				59C447A82770B9CC00885D91 /* GameScene.sks in Resources */,
+				59C447AF2770C75B00885D91 /* testMap1.tmx in Resources */,
+				59C4478427708DD500885D91 /* ST-Convi-E01.tsx in Resources */,
 				59C446B7276FDCA500885D91 /* Assets.xcassets in Resources */,
+				59C447A127708DD500885D91 /* SC-Door-Convi02.png in Resources */,
+				59C4479527708DD500885D91 /* ST-Bakery-I01.tsx in Resources */,
+				59C447A227708DD500885D91 /* ST-Office-I01.tsx in Resources */,
+				59C4478827708DD500885D91 /* ST-Izakaya-I01.png in Resources */,
+				59C4478C27708DD500885D91 /* ST-Convi-I01.tsx in Resources */,
+				59C4479E27708DD500885D91 /* 20190523212041.png in Resources */,
+				59C4479327708DD500885D91 /* ST-Schl-WI02.tsx in Resources */,
+				59C4479027708DD500885D91 /* ST-Schl-WI02.png in Resources */,
+				59C4478E27708DD500885D91 /* SC-Door-Convi02.tsx in Resources */,
+				59C4479927708DD500885D91 /* set-mansion-in.zip in Resources */,
 				59C446BA276FDCA500885D91 /* LaunchScreen.storyboard in Resources */,
-				59C446AE276FDCA400885D91 /* Actions.sks in Resources */,
+				59C4479727708DD500885D91 /* set-mansion-in.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +493,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94460BDF81F69A94DC6CE838 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit/Pods-Vamos-a-jugar-al-SpriteKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit/Pods-Vamos-a-jugar-al-SpriteKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit/Pods-Vamos-a-jugar-al-SpriteKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF33C19DCA3AFE0FDE486B87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73A5F002870AE20751365B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vamos-a-jugar-al-SpriteKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C79D3DD0A640B53B6C5B95EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1870BD946FB0EEA7313388A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vamos-a-jugar-al-SpriteKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59C446A2276FDCA400885D91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -266,7 +603,10 @@
 			files = (
 				59C446B0276FDCA400885D91 /* GameScene.swift in Sources */,
 				59C446B2276FDCA400885D91 /* GameViewController.swift in Sources */,
+				59C446DD27707BCC00885D91 /* NotificationModel.swift in Sources */,
 				59C446AA276FDCA400885D91 /* AppDelegate.swift in Sources */,
+				59C447A42770B96100885D91 /* AudioModel.swift in Sources */,
+				59C447A62770B97C00885D91 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +780,7 @@
 		};
 		59C446D4276FDCA500885D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF3E2D3F115506C6827E3D1 /* Pods-Vamos-a-jugar-al-SpriteKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,6 +809,7 @@
 		};
 		59C446D5276FDCA500885D91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020C1CCD6129FE842DAD7933 /* Pods-Vamos-a-jugar-al-SpriteKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -496,6 +838,7 @@
 		};
 		59C446D7276FDCA500885D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1642077BCFDE46B29A2B5C /* Pods-Vamos-a-jugar-al-SpriteKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +864,7 @@
 		};
 		59C446D8276FDCA500885D91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6542225B402BAE45280568A1 /* Pods-Vamos-a-jugar-al-SpriteKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -546,6 +890,7 @@
 		};
 		59C446DA276FDCA500885D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E2C03A5DB422C81311A6E1 /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -569,6 +914,7 @@
 		};
 		59C446DB276FDCA500885D91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE3993C6D09CAE5D9BC38DC /* Pods-Vamos-a-jugar-al-SpriteKit-Vamos-a-jugar-al-SpriteKitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
