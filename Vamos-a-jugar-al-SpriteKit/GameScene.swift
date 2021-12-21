@@ -23,9 +23,19 @@ class GameScene: SKScene {
     var chihuahuaTextures: [[SKTexture]] = []
     var eventAuraTextures: [SKTexture] = []
     
+    
+    
+    //マップ(.tmxファイル)をインポート
     var tilemap = SKTilemap.load(tmxFile: "testMap1")!
+    
+    //上記インスタンスから抽出した一番全面のレイヤーを後で格納します
     var topLayer: SKTileLayer?
+    
+    //上記インスタンスから抽出した障害物判定用のレイヤーを後で格納します
     var obstacleLayer: SKTileLayer?
+    
+    
+    
     var chihuahuaNode = SKSpriteNode(imageNamed: "chihuahua_right_0")
     var chihuahuaCamera = SKCameraNode()
     
@@ -44,7 +54,7 @@ class GameScene: SKScene {
         
         self.addChild(tilemap)
 
-        setchihuahua()
+        setChihuahua()
         setEventAura()
         setObstacleTilePositions()
         setAnimationTextures()
@@ -88,14 +98,23 @@ class GameScene: SKScene {
         NotificationCenter.default.post(name: .arsagaMapNotifyFromScene, object: nil, userInfo: ["notifyType": type])
     }
     
+    
+    //障害物判定用の座標リストを取得
     func setObstacleTilePositions() {
+        //TiledMapで見ていたときにレイヤーリストの下から3番目に位置していたので、index=2を指定して取得
         let obstacleLayer = tilemap.tileLayer(atIndex: 2)
+        
+        //座標計算ようにタイルのpxを確認。今回は32×32です。
         print("tileSize: \(String(describing: obstacleLayer?.tileSize))")
-
+        
+        //障害物タイルの座標リストを配列に格納
         obstacleLayer?.getTiles().forEach({ tile in
-
+            /*
+             16pxずつずらしている理由↓
+             tileのアンカーポイント（座標基準点）が正方形の中心（x:0.5, y:0.5）になっているので、
+             正方形の左上になるようにずらしています。
+            */
             obstacleTilePositions += [CGPoint(x: tile.position.x - 16, y: tile.position.y + 16)]
-
         })
 
         print(obstacleTilePositions)
@@ -104,15 +123,23 @@ class GameScene: SKScene {
         
     }
     
-    func setchihuahua() {
+    
+    //チワワをMAPの最前面レイヤーに配置
+    func setChihuahua() {
+        //チワワnodeにカメラを設定
         chihuahuaNode.addChild(chihuahuaCamera)
         
+        //MAPの最前面のレイヤーを取得
         topLayer = tilemap.tileLayers().last
         
+        //チワワを最前面のレイヤーに設置
         topLayer?.addChild(chihuahuaNode)
+        // - アンカーポイントの調整（画像と座標基準点の関係）
         chihuahuaNode.anchorPoint = CGPoint(x: 0.5, y: 0)
+        // - 初期座標を設定（今回1マス32pxなので、左上から見て右に20、下に6マスのところ）
         chihuahuaNode.position = CGPoint(x: (32 * 20), y: -(32 * 6))
         
+        //カメラをSceneに適用
         self.camera = chihuahuaCamera
     }
     
@@ -213,7 +240,7 @@ class GameScene: SKScene {
     
     
     @objc func move(timer: Timer) {
-        
+        //キャラクターの現在座標を取得
         var targetPos = chihuahuaNode.position
         
         //0.2秒間隔でテクスチャーを切り替えるパラパラ漫画風アニメーション
@@ -221,11 +248,7 @@ class GameScene: SKScene {
         
         //0.4秒ごとにアニメーションを実行させる（0.4秒ごとにアニメーションが終わるので再開させる）
         if (Int(timerCount * 10) % 4 == 0) || timerCount == 0 {
-            
             chihuahuaNode.run(animateAction)
-            
-            print("animate")
-            
         }
         
         //MARK: - 少数同士の計算だとずれるので、整数換算してから計算
@@ -234,6 +257,7 @@ class GameScene: SKScene {
         timerCount /= 10
 //        timerCount += 0.2
         
+        //移動しようとしている方向によって移動先座標を書き換え
         switch direction {
         case .up:
             targetPos.y += 32
@@ -250,17 +274,19 @@ class GameScene: SKScene {
         default: break
         }
                 
+        //MARK: - 移動先の座標が障害物座標リストに含まれていたら、進ませずに終了する
         guard checkObstacles(targetPos: targetPos) else {
             print("checkObstacles == falseなのでreturn")
             return
         }
-        print("move")
         
+        //キャラクターの移動を実行
         let action = SKAction.move(to: targetPos, duration: 0.2)
         chihuahuaNode.run(action)
 
     }
     
+    //移動先の座標が障害物座標リストに含まれているかチェック
     func checkObstacles(targetPos: CGPoint) -> Bool {
         
         let result = obstacleTilePositions.first(where: { item in
